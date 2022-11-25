@@ -45,9 +45,11 @@ li a:hover:not(.active){
 .Projects{
   width: 300px;
   height: 100px;
+  box-sizing: content-box;
 }
 /* Slideshow container */
 .slideshow-container {
+  
   max-width: 330px;
   position: relative;
   margin: auto;
